@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/heliu/Downloads/workspace/jisuanke/data_structure/fruite.cpp
+iostream
+-
+map
+-
+string
+-
+set
+-
+
