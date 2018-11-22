@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/heliu/Downloads/workspace/jisuanke/data_structure/bracketMatching.cpp
+/Users/heliu/Downloads/workspace/jisuanke/data_structure/chrome.cpp
 iostream
 -
 stack
 -
 string
--
-vector
 -
 
