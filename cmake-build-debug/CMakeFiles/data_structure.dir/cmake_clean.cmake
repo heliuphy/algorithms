@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data_structure.dir/fruite.cpp.o"
+  "CMakeFiles/data_structure.dir/chrome.cpp.o"
   "data_structure.pdb"
   "data_structure"
 )

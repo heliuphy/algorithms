@@ -11,34 +11,17 @@ using namespace std;
 
 int main(){
     int n;
+    cin >> n;
+    set<string> places;
+    set<string> fruits;
+
     string fruitName, placeName;
     int saleNum;
-    map<string, string> origin;
-    map<string, int> sales;
-    map<string, set<string> > fruitsInThisPlace;
-//    set<string> fruitList;
-    set<string> placeList;
-    cin >> n;
-    // apple shandong 3
-    for (int i = 0; i < n; ++i) {
-        cin >> fruitName >> placeName >> saleNum;
-//        fruitList.insert(fruitName);
-        placeList.insert(placeName);
-        fruitsInThisPlace[placeName].insert(fruitName);
-        origin[fruitName] = placeName;
-        if (sales.count(fruitName)) {
-            sales[fruitName] += saleNum;
-        }
-        else {
-            sales[fruitName] = saleNum;
-        }
-    }
-    for (auto i = placeList.begin(); i != placeList.end(); ++i) {
-        cout << *i << endl;
-        for (set<string>::iterator j = fruitsInThisPlace[*i].begin(); j != fruitsInThisPlace[*i].end(); ++j){
-            cout << "   |----" << *j << "(" << sales[*j] << ")" << endl;
 
-        }
+    for (int i = 0; i < n ; ++ i) {
+        cin >> fruitName >> placeName >> saleNum;
+        places.insert(placeName);
+        fruits.insert(fruitName);
     }
 //    guangdong
 //    |----pineapple(5)

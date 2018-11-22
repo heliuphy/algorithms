@@ -123,32 +123,32 @@ data_structure/fast:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/build
 .PHONY : data_structure/fast
 
-fruite.o: fruite.cpp.o
+chrome.o: chrome.cpp.o
 
-.PHONY : fruite.o
+.PHONY : chrome.o
 
 # target to build an object file
-fruite.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fruite.cpp.o
-.PHONY : fruite.cpp.o
+chrome.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.o
+.PHONY : chrome.cpp.o
 
-fruite.i: fruite.cpp.i
+chrome.i: chrome.cpp.i
 
-.PHONY : fruite.i
+.PHONY : chrome.i
 
 # target to preprocess a source file
-fruite.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fruite.cpp.i
-.PHONY : fruite.cpp.i
+chrome.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.i
+.PHONY : chrome.cpp.i
 
-fruite.s: fruite.cpp.s
+chrome.s: chrome.cpp.s
 
-.PHONY : fruite.s
+.PHONY : chrome.s
 
 # target to generate assembly for a file
-fruite.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fruite.cpp.s
-.PHONY : fruite.cpp.s
+chrome.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.s
+.PHONY : chrome.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... data_structure"
-	@echo "... fruite.o"
-	@echo "... fruite.i"
-	@echo "... fruite.s"
+	@echo "... chrome.o"
+	@echo "... chrome.i"
+	@echo "... chrome.s"
 .PHONY : help
 
 
