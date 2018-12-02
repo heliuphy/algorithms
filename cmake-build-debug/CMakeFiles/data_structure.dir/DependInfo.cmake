@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/heliu/Downloads/workspace/jisuanke/data_structure/chrome.cpp" "/Users/heliu/Downloads/workspace/jisuanke/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/chrome.cpp.o"
+  "/Users/heliu/Downloads/workspace/jisuanke/data_structure/count_off.cpp" "/Users/heliu/Downloads/workspace/jisuanke/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/count_off.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

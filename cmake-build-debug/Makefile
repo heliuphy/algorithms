@@ -123,32 +123,32 @@ data_structure/fast:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/build
 .PHONY : data_structure/fast
 
-chrome.o: chrome.cpp.o
+count_off.o: count_off.cpp.o
 
-.PHONY : chrome.o
+.PHONY : count_off.o
 
 # target to build an object file
-chrome.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.o
-.PHONY : chrome.cpp.o
+count_off.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/count_off.cpp.o
+.PHONY : count_off.cpp.o
 
-chrome.i: chrome.cpp.i
+count_off.i: count_off.cpp.i
 
-.PHONY : chrome.i
+.PHONY : count_off.i
 
 # target to preprocess a source file
-chrome.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.i
-.PHONY : chrome.cpp.i
+count_off.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/count_off.cpp.i
+.PHONY : count_off.cpp.i
 
-chrome.s: chrome.cpp.s
+count_off.s: count_off.cpp.s
 
-.PHONY : chrome.s
+.PHONY : count_off.s
 
 # target to generate assembly for a file
-chrome.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/chrome.cpp.s
-.PHONY : chrome.cpp.s
+count_off.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/count_off.cpp.s
+.PHONY : count_off.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... data_structure"
-	@echo "... chrome.o"
-	@echo "... chrome.i"
-	@echo "... chrome.s"
+	@echo "... count_off.o"
+	@echo "... count_off.i"
+	@echo "... count_off.s"
 .PHONY : help
 
 
